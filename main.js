@@ -48,7 +48,7 @@ renderer.toneMapping = THREE.ACESFilmicToneMapping;
 
 let position = 0;
 
-gltfLoader.load('./assets/the_king_s_hall/scene.gltf', function(gltf) {
+gltfLoader.load('./public/assets/the_king_s_hall/scene.gltf', function(gltf) {
     const model = gltf.scene;
     scene.add(model);
 
